@@ -1,0 +1,80 @@
+{
+  "version": 158,
+  "source_npz": "V110_3_19_11_SKEL_mesh_sequence (7).npz",
+  "compiled_python_files": 17,
+  "atlas": {
+    "bones": 28,
+    "muscles": 76,
+    "subject": "Female"
+  },
+  "semantic_orientation_values": {
+    "sacrococcyx_posterior_dot": -0.14156441450015694,
+    "patella_r_anterior_dot": 0.052676489660060805,
+    "foot_r_medial_dot": 0.05363855358601993,
+    "det_donor_r_foot": 0.9999999999999998,
+    "det_target_r_foot": 1.0,
+    "patella_l_anterior_dot": 0.08382692758248252,
+    "foot_l_medial_dot": 0.05046410635901513,
+    "det_donor_l_foot": 1.0000000000000002,
+    "det_target_l_foot": 1.0
+  },
+  "foot_qc": {
+    "version": "158-foot-qc-v2",
+    "gait_states": {
+      "source": "3D auxiliar · altura+velocidad distal",
+      "double_support_pct": 14.666666666666666,
+      "right_single_support_pct": 53.333333333333336,
+      "left_single_support_pct": 32.0,
+      "flight_pct": 0.0,
+      "right_contact_pct": 68.0,
+      "left_contact_pct": 46.666666666666664,
+      "transitions": 3
+    },
+    "right": {
+      "heel_toe_geometric_confidence_pct": 98.14864885510119,
+      "ankle_rom_deg": 32.43418292482293,
+      "ankle_max_step_deg_per_frame": 3.954774298312116,
+      "subtalar_rom_deg": 0.0,
+      "mtp_rom_deg": 0.0,
+      "inversion_eversion_quality": "Orientativo · baja fiabilidad"
+    },
+    "left": {
+      "heel_toe_geometric_confidence_pct": 97.70271555758637,
+      "ankle_rom_deg": 32.24742191405694,
+      "ankle_max_step_deg_per_frame": 3.6000006124433135,
+      "subtalar_rom_deg": 0.0,
+      "mtp_rom_deg": 0.0,
+      "inversion_eversion_quality": "Orientativo · baja fiabilidad"
+    }
+  },
+  "bone_sequence_smoke_test": {
+    "shape": [
+      75,
+      523,
+      3
+    ],
+    "faces": [
+      876,
+      3
+    ],
+    "seconds": 1.2194437980651855
+  },
+  "checks": {
+    "sacrococcyx_posterior": true,
+    "patella_r_anterior": true,
+    "foot_r_medial": true,
+    "foot_r_proper_rotation": true,
+    "patella_l_anterior": true,
+    "foot_l_medial": true,
+    "foot_l_proper_rotation": true,
+    "bone_sequence_75_frames": true,
+    "app_version_158": true,
+    "atlas_counts": true,
+    "qc_v2": true,
+    "no_simultaneous_flight_aux": true,
+    "inversion_eversion_low_confidence": true,
+    "support_state_exports": true
+  },
+  "all_pass": true,
+  "methodological_note": "Support/swing from 3D height+velocity is auxiliary when reliable 2D IC/TO is absent. It is not a force-platform measurement."
+}

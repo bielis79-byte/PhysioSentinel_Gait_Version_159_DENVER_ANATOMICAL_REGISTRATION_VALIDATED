@@ -1,0 +1,8 @@
+PhysioSentinel Gait Version 158
+
+Upload the CONTENTS of this ZIP directly to the GitHub repository root.
+Streamlit Cloud Main file path: streamlit_app.py
+
+For reopening an existing subject, upload the already calculated .npz file in:
+Reabrir un modelo SKEL ya calculado -> Cargar NPZ SKEL existente.
+This avoids recalculating the 75 SKEL frames.
